@@ -6,7 +6,9 @@
     "start": "ng serve",
     "build": "ng build",
     "lint": "ng lint",
-    "deploy": "ng build --deploy-url /banco-union/"
+    "deploy": "ng build --deploy-url /banco-union/",
+    "build:prod": "ng build --configuration production --base-href https://vhernandez1.github.io/angular-banco-union/",
+    "test:headless": "ng test --watch=false --browsers=ChromeHeadless"
   },
   "private": true,
   "dependencies": {
