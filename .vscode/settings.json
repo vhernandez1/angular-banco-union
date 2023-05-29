@@ -1,0 +1,8 @@
+{
+  "appService.zipIgnorePattern": [
+    "node_modules{,/**}",
+    ".vscode{,/**}"
+  ],
+  "appService.defaultWebAppToDeploy": "/subscriptions/84d5cac5-29fd-409e-82fc-a131c1dbf656/resourceGroups/angular-cloud-vhhh/providers/Microsoft.Web/sites/banco-union-app",
+  "appService.deploySubpath": "."
+}
