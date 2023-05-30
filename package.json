@@ -5,11 +5,10 @@
     "ng": "ng",
     "start": "node server.js",
     "build": "ng build",
+    "test": "ng test",
     "lint": "ng lint",
-    "deploy": "ng build --deploy-url /banco-union/",
-    "build:prod": "ng build --configuration production --base-href https://vhernandez1.github.io/angular-banco-union/",
-    "test:headless": "ng test --watch=false --browsers=ChromeHeadless",
-    "heroku-postbuild": "ng build"
+    "e2e": "ng e2e",
+    "postinstall": "ng build --aot -prod"
   },
   "private": true,
   "dependencies": {
